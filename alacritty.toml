@@ -2,7 +2,7 @@ live_config_reload = true
 
 # custom them that attempts to mirror iterm2's tango_dark theme
 import = [
-    "~/.config/alacritty/tango_really_dark.toml"
+    "~/.config/alacritty/tango_dark_iterm.toml"
 ]
 
 [window]
