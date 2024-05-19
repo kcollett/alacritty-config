@@ -1,0 +1,36 @@
+live_config_reload = true
+
+# custom them that attempts to mirror iterm2's tango_dark theme
+import = [
+    "~/.config/alacritty/themes/themes/tango_really_dark.toml"
+]
+
+[window]
+padding.x = 5
+padding.y = 5
+resize_increments = true
+
+# make default size a bit taller
+[window.dimensions]
+columns = 80
+lines = 40
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+style = "Bold Italic"
+

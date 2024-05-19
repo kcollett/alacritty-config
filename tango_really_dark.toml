@@ -1,0 +1,25 @@
+# GNOME Terminal Tango Dark
+
+[colors.primary]
+background = '#000000'
+foreground = '#d3d7cf'
+
+[colors.normal]
+black = '#000000'
+red = '#d81e00'
+green = '#5da702'
+yellow = '#d0ae00'
+blue = '#427ab4'
+magenta = '#89658e'
+cyan = '#00a7ab'
+white = '#dcdfdc'
+
+[colors.bright]
+black = '#686a66'
+red = '#f54135'
+green = '#99e442'
+yellow = '#fdeb61'
+blue = '#84b0d9'
+magenta = '#bc94b7'
+cyan = '#37e6e8'
+white = '#f2f2f0'
