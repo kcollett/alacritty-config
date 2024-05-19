@@ -1,25 +1,25 @@
-# GNOME Terminal Tango Dark
+# Tango Dark theme for iterm
 
 [colors.primary]
 background = '#000000'
-foreground = '#d3d7cf'
+foreground = '#fffeff'
 
 [colors.normal]
 black = '#000000'
-red = '#d81e00'
-green = '#5da702'
-yellow = '#d0ae00'
-blue = '#427ab4'
-magenta = '#89658e'
-cyan = '#00a7ab'
-white = '#dcdfdc'
+red = '#d71e00'
+green = '#5da602'
+yellow = '#cfad00'
+blue = '#417ab3'
+magenta = '#88658d'
+cyan = '#00a7aa'
+white = '#dbded8'
 
 [colors.bright]
-black = '#686a66'
-red = '#f54135'
-green = '#99e442'
-yellow = '#fdeb61'
-blue = '#84b0d9'
-magenta = '#bc94b7'
-cyan = '#37e6e8'
-white = '#f2f2f0'
+black = '#676965'
+red = '#f44135'
+green = '#98e342'
+yellow = '#fcea60'
+blue = '#83afd8'
+magenta = '#bc93b6'
+cyan = '#37e5e7'
+white = '#f1f1ef'
