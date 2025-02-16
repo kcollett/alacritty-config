@@ -4,19 +4,27 @@ live_config_reload = true
 import = [
     "~/.config/alacritty/tango_dark_iterm.toml"
 ]
+[colors]
+draw_bold_text_with_bright_colors = true
 
 [window]
 padding.x = 5
 padding.y = 5
 resize_increments = true
 
-# make default size a bit taller
+# make default size larger
 [window.dimensions]
-columns = 80
+columns = 120
 lines = 40
 
 [font]
 size = 15.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval=500
+blink_timeout=0
+unfocused_hollow=true
 
 [font.normal]
 family = "Hack Nerd Font Mono"
@@ -34,3 +42,6 @@ style = "Bold"
 family = "Hack Nerd Font Mono"
 style = "Bold Italic"
 
+# uncomment for Windows
+# [terminal]
+# shell = { program = "wsl.exe", args = ["~"] }
