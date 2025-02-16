@@ -1,9 +1,11 @@
+[general]
 live_config_reload = true
 
-# custom them that attempts to mirror iTerm's tango_dark theme
+# custom theme that attempts to mirror iTerm's tango_dark theme
 import = [
     "~/.config/alacritty/tango_dark_iterm.toml"
 ]
+
 [colors]
 draw_bold_text_with_bright_colors = true
 
